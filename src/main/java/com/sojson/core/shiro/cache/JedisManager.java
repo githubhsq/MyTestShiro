@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.cache;
+package com.sojson.core.shiro.cache;
 
 import java.util.Collection;
 import java.util.HashSet;

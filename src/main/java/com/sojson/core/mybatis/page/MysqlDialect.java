@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.mybatis.page;
+package com.sojson.core.mybatis.page;
 
 public class MysqlDialect implements Dialect {
 	protected static final String SQL_END_DELIMITER = ";";

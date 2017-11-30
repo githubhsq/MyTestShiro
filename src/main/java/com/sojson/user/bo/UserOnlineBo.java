@@ -1,4 +1,4 @@
-package main.java.com.sojson.user.bo;
+package com.sojson.user.bo;
 
 import java.io.Serializable;
 import java.util.Date;

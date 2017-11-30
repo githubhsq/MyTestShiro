@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.filter;
+package com.sojson.core.shiro.filter;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;

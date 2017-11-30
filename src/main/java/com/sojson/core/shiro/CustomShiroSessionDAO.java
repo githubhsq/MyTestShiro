@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro;
+package com.sojson.core.shiro;
 
 import java.io.Serializable;
 import java.util.Collection;

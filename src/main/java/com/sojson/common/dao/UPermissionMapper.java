@@ -1,4 +1,4 @@
-package main.java.com.sojson.common.dao;
+package com.sojson.common.dao;
 
 import java.util.List;
 import java.util.Set;

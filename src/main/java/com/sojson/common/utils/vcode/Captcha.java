@@ -1,4 +1,4 @@
-package main.java.com.sojson.common.utils.vcode;
+package com.sojson.common.utils.vcode;
 
 import java.awt.Color;
 import java.awt.Font;

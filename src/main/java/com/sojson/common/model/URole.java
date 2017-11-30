@@ -1,4 +1,4 @@
-package main.java.com.sojson.common.model;
+package com.sojson.common.model;
 
 import java.io.Serializable;
 import java.util.LinkedList;

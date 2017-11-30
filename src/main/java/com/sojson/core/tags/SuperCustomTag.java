@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.tags;
+package com.sojson.core.tags;
 
 import java.util.Map;
 

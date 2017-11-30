@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.mybatis.page;
+package com.sojson.core.mybatis.page;
 
 
 public class OracleDialect implements Dialect {

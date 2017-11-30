@@ -1,4 +1,4 @@
-package main.java.com.sojson.user.service.impl;
+package com.sojson.user.service.impl;
 
 import java.util.HashMap;
 import java.util.List;

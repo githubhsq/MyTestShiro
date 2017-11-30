@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.token;
+package com.sojson.core.shiro.token;
 
 import org.apache.shiro.authc.UsernamePasswordToken;
 /**

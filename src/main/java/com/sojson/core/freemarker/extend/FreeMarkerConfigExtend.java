@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.freemarker.extend;
+package com.sojson.core.freemarker.extend;
 
 import java.io.IOException;
 

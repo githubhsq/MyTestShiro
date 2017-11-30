@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.statics;
+package com.sojson.core.statics;
 /**
  * 不可变参数定义
  * 第三方参数

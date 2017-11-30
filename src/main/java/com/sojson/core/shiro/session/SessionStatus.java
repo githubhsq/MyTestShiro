@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.session;
+package com.sojson.core.shiro.session;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package main.java.com.sojson.common.timer;
+package com.sojson.common.timer;
 
 import java.util.Date;
 

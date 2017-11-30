@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.service;
+package com.sojson.core.shiro.service;
 
 public interface ShiroManager {
 

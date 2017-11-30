@@ -1,4 +1,4 @@
-package main.java.com.sojson.common.controller;
+package com.sojson.common.controller;
 
 
 import java.util.Map;

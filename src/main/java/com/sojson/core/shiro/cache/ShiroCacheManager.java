@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.cache;
+package com.sojson.core.shiro.cache;
 
 import org.apache.shiro.cache.Cache;
 

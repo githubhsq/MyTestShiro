@@ -1,4 +1,4 @@
-package main.java.com.sojson.user.controller;
+package com.sojson.user.controller;
 
 import java.util.List;
 import java.util.Map;

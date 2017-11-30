@@ -1,4 +1,4 @@
-package main.java.com.sojson.permission.bo;
+package com.sojson.permission.bo;
 
 import java.io.Serializable;
 /**

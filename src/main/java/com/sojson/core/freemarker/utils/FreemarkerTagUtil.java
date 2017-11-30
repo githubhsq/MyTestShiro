@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.freemarker.utils;
+package com.sojson.core.freemarker.utils;
 
 import java.util.HashMap;
 import java.util.Map;

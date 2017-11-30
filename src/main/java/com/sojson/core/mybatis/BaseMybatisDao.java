@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.mybatis;
+package com.sojson.core.mybatis;
 
 import java.lang.reflect.ParameterizedType;
 import java.sql.Connection;

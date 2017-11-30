@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.tags;
+package com.sojson.core.tags;
 
 import static freemarker.template.ObjectWrapper.DEFAULT_WRAPPER;
 

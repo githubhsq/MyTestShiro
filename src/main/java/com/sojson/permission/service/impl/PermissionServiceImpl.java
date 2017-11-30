@@ -1,4 +1,4 @@
-package main.java.com.sojson.permission.service.impl;
+package com.sojson.permission.service.impl;
 
 import java.util.HashMap;
 import java.util.List;

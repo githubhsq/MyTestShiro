@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.token.manager;
+package com.sojson.core.shiro.token.manager;
 
 import java.util.List;
 

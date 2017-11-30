@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.filter;
+package com.sojson.core.shiro.filter;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package main.java.com.sojson.user.service;
+package com.sojson.user.service;
 
 import java.util.List;
 import java.util.Map;

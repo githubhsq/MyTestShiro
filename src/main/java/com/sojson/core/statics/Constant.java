@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.statics;
+package com.sojson.core.statics;
 
 import java.util.Calendar;
 

@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.service.impl;
+package com.sojson.core.shiro.service.impl;
 
 import java.io.IOException;
 import java.util.Map;

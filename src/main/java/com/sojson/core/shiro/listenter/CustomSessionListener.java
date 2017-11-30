@@ -1,4 +1,4 @@
-package main.java.com.sojson.core.shiro.listenter;
+package com.sojson.core.shiro.listenter;
 
 
 import org.apache.shiro.session.Session;
