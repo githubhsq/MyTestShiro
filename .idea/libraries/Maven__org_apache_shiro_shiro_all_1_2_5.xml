@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.5/shiro-all-1.2.5-sources.jar!/" />
+      <root url="jar://E:/maven/.m2/repository/org/apache/shiro/shiro-all/1.2.5/shiro-all-1.2.5.jar!/" />
     </SOURCES>
   </library>
 </component>
