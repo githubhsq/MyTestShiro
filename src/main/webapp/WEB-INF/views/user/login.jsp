@@ -151,16 +151,29 @@
             entity.pswd = pswd;
             entity.email = username;
             entity.rememberMe = $("#rememberMe").is(':checked');
-
+            var load = layer.load();
             $.ajax({
-                url:"<%=basePath%>/user/submitLogin",
+                url:"<%=basePath%>/uLogin/submitLogin",
                 data:entity,
                 type:"post",
                 dataType:"json",
                 async: false,
+                beforeSend:function(){
+                    layer.msg('开始登录，请注意后台控制台。');
+                },
                 success:function(result){
-                    alert(result);
-                    // console.log(result);
+                    layer.close(load);
+                    if(result && result.status != 200){
+                        layer.msg(result.message);
+                        $('#password').val('');
+                        return;
+                    }else{
+                        layer.msg('登录成功！');
+                        setTimeout(function(){
+                            //登录返回
+                            window.location.href= "<%=basePath%>/user/index.html";
+                        },1000)
+                    }
                 },
                 error:function(e){
                     console.log(e,e.message);

@@ -49,7 +49,7 @@ import com.sojson.user.service.UUserService;
  */
 @Controller
 @Scope(value="prototype")
-@RequestMapping("u")
+@RequestMapping("u11")
 public class UserLoginController extends BaseController {
 
 	@Resource

@@ -38,10 +38,10 @@ public class LoginFilter  extends AccessControlFilter {
 		
 		UUser token = TokenManager.getToken();
 		
-		if(null != token || isLoginRequest(request, response)){// && isEnabled()
+		if(null != token || isLoginRequest(request, response)){
             return Boolean.TRUE;
         } 
-		if (ShiroFilterUtils.isAjax(request)) {// ajax请求
+		if (ShiroFilterUtils.isAjax(request)) {
 			Map<String,String> resultMap = new HashMap<String, String>();
 			LoggerUtils.debug(getClass(), "当前用户没有登录，并且是Ajax请求！");
 			resultMap.put("login_status", "300");

@@ -86,15 +86,15 @@
 
 	<!-- 视图解析器 -->
 	<!-- 配置freeMarker视图解析器 -->
-	<bean id="viewResolverFtl"
-		class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
-		<property name="viewClass" value="com.sojson.core.freemarker.extend.FreeMarkerViewExtend" />
-		<!-- 把Freemarker 扩展一下，把相关属性加入进去。。。 -->
-		<property name="contentType" value="text/html; charset=utf-8" />
-		<property name="cache" value="true" />
-		<property name="suffix" value=".ftl" />
-		<property name="order" value="0" />
-	</bean>
+	<!--<bean id="viewResolverFtl"-->
+		<!--class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">-->
+		<!--<property name="viewClass" value="com.sojson.core.freemarker.extend.FreeMarkerViewExtend" />-->
+		<!--&lt;!&ndash; 把Freemarker 扩展一下，把相关属性加入进去。。。 &ndash;&gt;-->
+		<!--<property name="contentType" value="text/html; charset=utf-8" />-->
+		<!--<property name="cache" value="true" />-->
+		<!--<property name="suffix" value=".ftl" />-->
+		<!--<property name="order" value="0" />-->
+	<!--</bean>-->
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="order" value="2"></property>
