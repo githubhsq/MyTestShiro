@@ -171,13 +171,29 @@
                         layer.msg('登录成功！');
                         setTimeout(function(){
                             //登录返回
-                            window.location.href= "<%=basePath%>/user/index.html";
+                            window.location.href= "<%=basePath%>/";
+                            // loginSuccess();
                         },1000)
                     }
                 },
                 error:function(e){
                     console.log(e,e.message);
                     layer.msg('请看后台Java控制台，是否报错，确定已经配置数据库和Redis',new Function());
+                }
+            });
+        }
+
+        function loginSuccess() {
+            $.ajax({
+                url:"<%=basePath%>/uLogin/success",
+                type:"get",
+                dataType:"json",
+                async: false,
+                success:function(result){
+                    console.log(result);
+                },
+                error:function(e){
+                    console.log(e,e.message);
                 }
             });
         }

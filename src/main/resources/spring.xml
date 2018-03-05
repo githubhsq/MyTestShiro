@@ -27,9 +27,9 @@
 	</bean>
 	
 	
-	<import resource="spring-mybatis.xml"/>
+	<import resource="application-mybatis.xml"/>
 	<import resource="spring-cache.xml"/>
-	<import resource="spring-shiro.xml"/>
+	<import resource="application-shiro.xml"/>
 	<!-- 定时任务，运行去掉
 	<import resource="spring-timer.xml"/>
 	 -->
